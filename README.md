@@ -33,7 +33,7 @@ Según tu estilo de trabajo, puede ser que te sea cómodo asociar dos funcionali
 
 Todo el entorno de trabajo que usas podría ser un gran plugin de funcionalidades conectadas que otros usuarios podrían encontrar también muy util.
 
-### Sistemas operativos extremadamente modulares
+### Sistemas extremadamente modulares
 
 Los sistemas operativos son sistemas modulares. El sistema operativo es un metaprograma al que se le incorporan los programas que crea su comunidad de usuarios. Recientemente, es posible replicar como un módulo un entorno de trabajo especialmente definido para que puedan ser reutilizado por otros usarios.
 
@@ -43,5 +43,18 @@ Imagina que un sistema operativo fuera el bucle de funcionamiento más básico p
 
 A partir de allí, sería posible ir conectando los plugins requeridos, uno por uno, o por capas funcionales, incluso entornos de trabajo completos.
 
+### Visibilidad
+Un programa tiene una interfaz para el usuario. Pero la única interfaz para el desarrollador suele ser el código mismo. No parece haber mucho problema mientras quienes desarrollan tienen la capacidad de enfrentar esa complejidad.
 
+Pero incluso los programadores tienen que recurrir a patrones y otros facilitadores cuando la complejidad aumenta.
 
+Esto podría ser mejor.
+
+Imagina que hubiera una vista del estado de un sistema y las relaciones entre sus componentes funcionales. Y que un desarrollador pudiera usar esa vista como mapa durante el proceso de desarrollo.
+
+## La idea
+Koba es un programa extremadamente modular, con lo mínimo necesario para ser un programa y con un plugin básico para jalar otros plugins, asociar plugins y también para empujar plugins.
+
+Así, Koba podría ser un editor de texto, un procesador de texto, una hoja de cálculo, un programa de dibujo, un entorno de desarrollo, lo que el usuario vaya determinando con los plugins que le agregue.
+
+En el extremo, la idea de Koba podría ser aplicada a un sistema operativo extremadamente simple. Con los plugins adecuados se podría alcanzar a ser una base compatible con Linux, por ejemplo. Pero su naturaleza extremadamente modular permitiría desarrollar programas de modo diferente.
